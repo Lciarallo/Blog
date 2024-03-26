@@ -1,0 +1,43 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    background-color: rgb(226, 148, 2);
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+.navitem{
+background: rgba(2, 124, 180, 0.801);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding-left: 2;
+
+}
+
+.navitem a{
+    padding-left: 200px;
+}
+
+
+#icon{
+    width: 60px;
+    height: 60px;
+}
+#iconbar{
+    margin-left: 10rem;
+}
+.nav-item button {
+    margin-left: 10px; 
+    margin-right: 10px; 
+  }
+  
