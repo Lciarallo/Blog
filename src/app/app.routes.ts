@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {CarroselComponent} from './carrosel/carrosel.component'
-import {CandidatarComponent} from './candidatar/candidatar.component'
-
+import { AppComponent } from './app.component';
+import { CandidatarComponent } from './candidatar/candidatar.component';
+import { CarroselComponent } from './carrosel/carrosel.component';
 
 
 export const routes: Routes = [
-  { path: '', component: CarroselComponent},
-  {path: 'candidatar', component: CandidatarComponent}
-
+  { path: 'candidatar', component: CandidatarComponent },
+  { path: '', component: CarroselComponent },
 ];
 
 @NgModule({
