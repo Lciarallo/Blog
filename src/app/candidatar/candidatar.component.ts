@@ -12,7 +12,6 @@ import { FormsModule } from '@angular/forms';
 
 })
 export class CandidatarComponent {
-[x: string]: any;
   nome = document.getElementById("inputnome")
   dataNascimento = document.getElementById("inputdata");
   experiencia = document.getElementById("inputdescription");
